@@ -1,10 +1,10 @@
 var express = require('express');
 var app = express();
 
-app.use(function(req, res, next){
-  console.log('your name is ' + req.query.name);
-  next();
-});
+//app.use(function(req, res, next){
+//  console.log('your name is ' + req.query.name);
+//  next();
+//});
 
 // a random route
 app.get('/random', function(req, res){
